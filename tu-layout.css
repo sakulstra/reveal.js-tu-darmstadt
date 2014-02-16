@@ -360,24 +360,34 @@ table {
 }
 
 /* header definitions */
-/* line 9, sass/tu-layout.scss */
-.reveal {
-  width: 98%;
+/* line 10, sass/tu-layout.scss */
+.reveal .slides section.present:before {
+  content: '';
   border-top: 14px solid #B90F22;
-  position: relative;
-  margin: 14px auto 0 auto;
-}
-
-/* line 15, sass/tu-layout.scss */
-.reveal:after {
   top: 2px;
   position: absolute;
   height: 2px;
-  background-color: black;
+  border-bottom: 2px solid black;
   width: 100%;
 }
 
-/* line 22, sass/tu-layout.scss */
-section h1 {
+/* line 19, sass/tu-layout.scss */
+section h1, section h2 {
   border-bottom: 2px solid black !important;
+  padding: 8px 0 !important;
+}
+
+/* line 23, sass/tu-layout.scss */
+.reveal .slides section.present {
+  position: relative;
+  text-align: left !important;
+}
+
+/* line 27, sass/tu-layout.scss */
+.footer {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  font-size: 12px;
+  opacity: 0.5;
 }
