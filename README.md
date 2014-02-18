@@ -1,7 +1,5 @@
 reveal.js-tu-darmstadt
 ======================
-simply load tu-layout as theme and modify the initialize(); (@see revealljs.config)
-
 ## settings
 usually u want a slide counter | left aligned, full width content so u have to add this to ur config file
 ```js
