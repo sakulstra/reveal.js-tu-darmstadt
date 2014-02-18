@@ -374,16 +374,20 @@ table {
 /* line 19, sass/tu-layout.scss */
 section h1, section h2 {
   border-bottom: 2px solid black !important;
-  padding: 8px 0 !important;
+  padding: 12px 250px 12px 0px !important;
 }
 
 /* line 23, sass/tu-layout.scss */
 .reveal .slides section.present {
   position: relative;
   text-align: left !important;
+  background: url("tud_logo.png");
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: 100% 12px;
 }
 
-/* line 27, sass/tu-layout.scss */
+/* line 31, sass/tu-layout.scss */
 .footer {
   position: fixed;
   bottom: 15px;
